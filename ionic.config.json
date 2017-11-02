@@ -2,5 +2,7 @@
   "name": "randevu",
   "app_id": "252ecc03",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }
