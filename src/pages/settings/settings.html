@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>{{'SETTINGS' | translate}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-segment [(ngModel)]="app_lang" color="primary" (ionChange)="setLanguage()">
+    <ion-segment-button value="en">
+      {{ 'BUTTONS.btn_en' | translate }}
+    </ion-segment-button>
+    <ion-segment-button value="ru">
+      {{ 'BUTTONS.btn_ru' | translate }}
+    </ion-segment-button>
+  </ion-segment>
+</ion-content>

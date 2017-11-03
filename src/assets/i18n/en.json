@@ -1,0 +1,18 @@
+{
+  "PAGE_TITLE" : "Translation tutorial",
+  "BUTTONS" : {
+    "btn_en" : "English",
+    "btn_ru" : "Russian"
+  },
+  "LIST" : "List",
+  "HOME" : "Home",
+  "MENU" : "Menu",
+  "SETTINGS" : "Settings",
+  "MAIN" : {
+    "btn_meet" : "Meetings",
+    "btn_look" : "Looking",
+    "btn_poi" : "POI"
+  },
+  "IN_APP" : "Internal app translation",
+  "FOO": "Foo {{test}}"
+}
