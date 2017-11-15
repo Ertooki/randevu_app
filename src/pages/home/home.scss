@@ -12,5 +12,8 @@ page-home {
       rgb(128,161,103) 0 7px 1px,
       rgba(0,0,0,.2) 0 .5em 5px;
     transition: background .2s ease-in-out;
+    -webkit-transition: background .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out;
+    -o-transition: background .2s ease-in-out;
   }
 }
