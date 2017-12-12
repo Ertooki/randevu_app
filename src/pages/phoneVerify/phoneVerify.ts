@@ -18,6 +18,8 @@ export class PhoneVerifyPage {
   selectCountry(){
     let modal = this.modalCtrl.create(CountryCodeSelect,{"selected":this.selectedIndex});
 
+    console.log("Fresh start");
+
     modal.onDidDismiss((country,index) => {
       console.log(country);
       document.getElementById('cntr_lbl').innerHTML = "<span class='flag-icon flag-icon-"+country.code+"'></span>&nbsp;&nbsp;" + country.phone_code;
